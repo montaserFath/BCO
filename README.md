@@ -23,3 +23,9 @@ pip install torchvision
 ![BCO VS BC Pendelum_result](https://github.com/montaserFath/BCO/blob/master/results/Scaled%20Performance%20BC%20VS%20BCO%20in%20Walker%20v2.png)
 
 ![alpha](https://github.com/montaserFath/BCO/blob/master/results/alpha%20v2.png)
+
+## Demo
+
+![BC](https://github.com/montaserFath/BCO/demo/bc.gif)
+
+![BCO](https://github.com/montaserFath/BCO/demo/bco.gif)
