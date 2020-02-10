@@ -26,6 +26,7 @@ pip install torchvision
 
 ## Demo
 
-![BC](https://github.com/montaserFath/BCO/blob/master/demo/bc.gif)
+![**BC**](https://github.com/montaserFath/BCO/blob/master/demo/bc.gif)
 
-![BCO](https://github.com/montaserFath/BCO/blob/master/demo/bco.gif)
+
+![**BCO**](https://github.com/montaserFath/BCO/blob/master/demo/bco.gif)
