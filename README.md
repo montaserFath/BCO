@@ -6,6 +6,45 @@
 
 - Behavior Cloning (BC) assume that you have access to **expert's states and actions** but behavior cloning  from observation assume that you have access to **expert's States only**
 
+## How it works?##
+
+**1- Collecting data**:
+
+- **Learner**: exploration policy, save states and actions
+
+- **Expert**: train expert (if you don’t have one), save states only.
+
+**2- Train Inverse dynamic model (T)**:
+
+- **Input**: Learner current state and Learner next state.
+
+- **Output**: predicted Learner current action.
+
+- **Loss function**: MSE, L1loss or NLL (predicted Learner current action, Learner current action).
+
+**3- Test: Inverse dynamic model (T):**
+
+- **Input**: Expert current state and Expert next state
+
+- **Output**: predicted Expert current action.
+
+**4- Train Behaviour model (policy ):**
+
+- **Input**: Expert current state.
+
+- **Output**: prediction of predicted Expert current action.
+
+- **Loss**: MSE, L1loss or NLL (prediction of predicted Expert current action, predicted Expert current action).
+
+**5- Learner interacts with environment:**
+
+- Learner use Behaviour model (policy ) to get action given current state.
+
+- Collect new data (states and actions)
+
+- Use collected data to update Inverse dynamic model (T) and Behaviour model (policy) (repeat 2, 3, and 4)
+
+
 
 ## OpenAI Gym Enviroment
 - Open AI Gym has several environments, We Use classical control environments [Pendulum](https://github.com/openai/gym/wiki/Pendulum-v0) and [Bipedal Walker2D](https://github.com/openai/gym/wiki/BipedalWalker-v2) environmens.
