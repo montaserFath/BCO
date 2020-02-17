@@ -14,6 +14,8 @@
 
 - **Expert**: train expert (if you don’t have one), save states only.
 
+- **all data available** [here](https://bit.ly/37AoBlR)
+
 **2- Train Inverse dynamic model (T)**:
 
 - **Input**: Learner current state and Learner next state.
@@ -57,6 +59,9 @@ pip install numpy
 pip install box2d-py
 pip install torchvision
 ```
+# Data
+
+- [Pendulum](https://github.com/openai/gym/wiki/Pendulum-v0) and [Bipedal Walker2D] (https://github.com/openai/gym/wiki/BipedalWalker-v2) Exploration States and actions, also expert states you can download it from [here](https://bit.ly/37AoBlR)
 
 ## Results
 ![BCO VS BC Pendelum_result](https://github.com/montaserFath/BCO/blob/master/results/Scaled%20Performance%20BC%20VS%20BCO%20in%20Walker%20v2.png)
