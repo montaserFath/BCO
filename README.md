@@ -6,7 +6,7 @@
 
 - Behavior Cloning (BC) assume that you have access to **expert's states and actions** but behavior cloning  from observation assume that you have access to **expert's States only**
 
-## How it works?##
+## How it works?
 
 **1- Collecting data**:
 
