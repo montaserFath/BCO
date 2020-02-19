@@ -38,7 +38,7 @@
 
 - **Loss**: MSE, L1loss or NLL (prediction of predicted Expert current action, predicted Expert current action).
 
-**5- Learner interacts with environment:**
+**5- Learner interacts with environment BCO(alpha):** 
 
 - Learner use Behaviour model (policy ) to get action given current state.
 
