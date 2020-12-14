@@ -1,6 +1,6 @@
 # Behavior Cloning (BC) and Behavior Cloning from Observation (BCO)
 
-- Implementation for Behavior Cloning (BC) and behavior cloning from observation (BCO) ([paper](https://arxiv.org/abs/1805.01954v2)) in Pytorch for [OpenAI Gym Environment](https://gym.openai.com/)
+- Implementation for Behavior Cloning (BC) and behavior cloning from observation (BCO) ([pdf](https://arxiv.org/abs/1805.01954v2)) in Pytorch for [OpenAI Gym Environment](https://gym.openai.com/)
 
 - Behavior Cloning (BC) and behavior cloning from observation (BCO) are **Imitation Learning** algorithms 
 
