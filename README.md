@@ -30,7 +30,7 @@
 
 - **Output**: predicted Expert current action.
 
-**4- Train Behaviour model (policy ):**
+**4- Train Behaviour model (policy):**
 
 - **Input**: Expert current state.
 
@@ -40,7 +40,7 @@
 
 **5- Learner interacts with environment BCO(alpha):** 
 
-- Learner use Behaviour model (policy ) to get action given current state.
+- Learner use Behaviour model (policy) to get action given current state.
 
 - Collect new data (states and actions)
 
